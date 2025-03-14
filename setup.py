@@ -6,7 +6,7 @@ setup(
     author="Phumin 'HourCode' Udomdach",
     author_email="phumin.udomdach@gmail.com",
     description="A powerful unit conversion library with CLI and API support",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/Minkeez/conversion_unit",
     packages=find_packages(),
