@@ -2,7 +2,7 @@
 
 ### CLI Usage Demo
 
-![Unit Conversion CPL](https://raw.githubusercontent.com/Minkeez/conversion_unit/main/CLI.png)
+![Unit Conversion CLI](https://raw.githubusercontent.com/Minkeez/conversion_unit/main/CLI.png)
 
 ### REST API Usage Demo
 
@@ -16,6 +16,7 @@ A powerful Python library for unit conversion, supporting **CLI and REST API**. 
 
 - ✅ **CLI Support**: Run conversions from the command line
 - ✅ **FastAPI REST API**: Convert units via HTTP requests
+- ✅ **Live API on Render**: Hosted API accessible online
 - ✅ **Comprehensive Units**: Includes length, mass, volume, temperature, energy, and more
 - ✅ **Custom Units**: Add your own conversions dynamically
 
@@ -42,7 +43,7 @@ result = convert(5, "km", "m")
 print(result)  # 5000.0
 ```
 
-#### **3️⃣ REST API Mode**
+#### **3️⃣ Local REST API Mode**
 
 Run the API server:
 
@@ -57,6 +58,20 @@ GET http://localhost:8000/convert?value=5&from_unit=km&to_unit=m
 ```
 
 Response:
+
+```json
+{ "result": 5000.0 }
+```
+
+#### **4️⃣ Live API on Render**
+
+Your API is hosted on **Render**! You can access it directly:
+
+```http
+GET https://conversion-unit-api.onrender.com/convert?value=5&from_unit=km&to_unit=m
+```
+
+Example Response:
 
 ```json
 { "result": 5000.0 }
