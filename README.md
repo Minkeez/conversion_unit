@@ -2,11 +2,11 @@
 
 ### CLI Usage Demo
 
-![Unit Conversion CPL](./CLI.png)
+![Unit Conversion CPL](https://raw.githubusercontent.com/Minkeez/conversion_unit/main/CLI.png)
 
 ### REST API Usage Demo
 
-![Unit Conversion REST API](./API.png)
+![Unit Conversion REST API](https://raw.githubusercontent.com/Minkeez/conversion_unit/main/API.png)
 
 ### 📌 Overview
 
