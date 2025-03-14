@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="conversion_unit",
-    version="1.0.0",
+    version="1.0.2",
     author="Phumin 'HourCode' Udomdach",
     author_email="phumin.udomdach@gmail.com",
     description="A powerful unit conversion library with CLI and API support",

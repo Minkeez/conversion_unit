@@ -3,7 +3,7 @@ import re
 import argparse
 from fastapi import FastAPI
 
-__version__ = "1.0.0"
+__version__ = "1.0.2"
 __author__ = "Phumin 'HourCode' Udomdach"
 
 # Conversion factors for simple multiplications
